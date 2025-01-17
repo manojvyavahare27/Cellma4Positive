@@ -22,7 +22,6 @@ import Menu from "../../../../../../Pages/BaseClasses/Menu";
 import ClinicalSummary from "../../../../../../Pages/ClinicalDomain/PatientSummary/ClinicalSummary";
 import ClinicalExtraDetails from "../../../../../../Pages/ClinicalDomain/PatientSummary/ClinicalExtraDetails";
 
-
 import { TIMEOUT } from "dns";
 import { error } from "console";
 import { before } from "node:test";
