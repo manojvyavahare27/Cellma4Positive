@@ -1,0 +1,67 @@
+{
+  "loginDetails": [
+    {
+      "username": "manoj.auto",
+      "password": "Manoj@2023"
+    },
+    {
+      "username": "prerelease.auto",
+      "password": "Manoj@2023"
+    }
+  ],
+  "PatientDetails": [
+    {
+      "pat_hospital_ref": "href05Reco004",
+      "pat_title": "Mr",
+      "pat_firstname": "Hardik",
+      "pat_surname": "Pandya",
+      "pat_sex": "M",
+      "pat_dob": "28/09/1994",
+      "pat_marital_status": "Single",
+      "pat_ethnicity_text": "Indian",
+      "pat_occupation": "Trainer",
+      "pat_notes": "Added for Testing",
+      "pat_type": "Regular",
+      "pat_maiden_name": "Pune",
+      "pat_blood_group": "B+",
+      "pat_religion": "Hindu",
+      "pat_middlename": "Martin",
+      "pat_registered_disabled_yes": "No",
+      "pat_registered_disabled": 0,
+      "pat_currently_pregnant_yes": "No",
+      "pat_currently_pregnant": 0,
+      "pat_language": "English",
+      "pat_temp_address_start": "01-04-2023",
+      "pat_country_of_birth": "India",
+      "pat_gender_at_birth": "M",
+      "pat_nationality": "Indian",
+      "pat_prisoner_yes": "No",
+      "pat_county_of_birth": "Maharashtra",
+      "pat_town_of_birth": "Pune",
+      "pat_sexual_orientation_eli_text": "Heterosexuality",
+      "pat_disability_note": "For Testing"
+    }
+  ],
+  "MedicalCertficate": [
+    {
+      "cert_certificate_class_eli_text": "Class 1 Pilots",
+      "cert_sub_type_name": "Single pilot commercial operations carrying passengers",
+      "certre_requirement_name": "Audiogram",
+      "clk_code": "TML",
+      "clk_description": "Limited period of validity of the medical certificate"
+    },
+    {
+      "certre_requirement_name": "Electrocardiogram"
+    },
+    {
+      "certre_requirement_name": "Comprehensive Ophthalmology"
+    }
+  ],
+  "Limitation": [
+    {
+      "patmcsn_limitation": "TML",
+      "patmcsn_from": 45525,
+      "patmcsn_to": 45532
+    }
+  ]
+}
