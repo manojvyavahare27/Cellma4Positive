@@ -150,10 +150,10 @@ class ConfirmExisting
     }
     
     async clickOnConfirmExistingDetails()
-    {        
-     const value= await this.btn_confirmExistingDetails.click()
+    {
+        const value= await this.btn_confirmExistingDetails.click()
     }
-
+    
     async checktxtTempPostCode()
     {        
      const value= await this.txtbox_tempAddPostcode.inputValue()

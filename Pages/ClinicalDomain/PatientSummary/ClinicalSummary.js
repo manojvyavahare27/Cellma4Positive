@@ -63,10 +63,20 @@ class ClinicalSummary {
 
         //Diagnosis Customizable question
        // this.customizableQuestion="xpath=//div[@class='MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-3 css-1jjp2xs']//label[text()='placeholder1']/parent::div/..//preceding-sibling::div/preceding-sibling::div//button";
-        
 
+        //Links
+        this.dropdownLinks=page.getByTestId('Links')
+        this.linkMedicationAdministrations=page.getByRole('heading', { name: 'Medication Administrations' })
+     }
 
+     async clickOnDropdownLinks()
+     {
+         await this.dropdownLinks.click()
+     }
 
+     async clickOnMedicationAdministrationsLink()
+     {
+         await this.linkMedicationAdministrations.click()
      }
 
     ///////////////////////////////BUTTON CLICKS///////////////////////////////////////////////
